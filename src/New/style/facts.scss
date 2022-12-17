@@ -1,0 +1,10 @@
+// for background image
+.facts {
+    min-height: 50vh;
+    width: 100%;
+    background: linear-gradient(#3F51B5, rgba(26, 118, 161, 0.711)), url("../images/images/home-bg.jpg") fixed no-repeat;
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
