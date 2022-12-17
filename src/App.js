@@ -4,11 +4,11 @@ import AOS from 'aos';
 import NavBar from './New/components/NavBar';
 import HomeSection from './New/components/HomeSection';
 import Facts from './New/components/Facts';
-
-import Testominal from './New/components/Testominal';
-import Subscribe from './New/components/Subscribe';
 import Services from './New/components/Services';
 import Bolgs from './New/components/Bolgs';
+import Team from './New/components/Team';
+import Portfolio from './New/components/Portfolio';
+import Contact from './New/components/Contact';
 
 function App() {
 
@@ -37,13 +37,14 @@ function App() {
 
   return (
     <div style={{ margin: "0", padding: "0" }}>
-      {/* <NavBar/> */}
+      <NavBar/>
       <HomeSection />
       <Services/>
       <Facts />
       <Bolgs/>
-      {/* <Testominal />
-      <Subscribe/> */}
+      <Team/>
+      <Portfolio />
+      <Contact/>
     </div>
   );
 }

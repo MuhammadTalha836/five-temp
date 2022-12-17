@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../images/images/blog-image-1.jpg"
+import img from "../images/blog-image-1.jpg"
 import "../style/Bolgs.scss";
 import { RxPerson } from "react-icons/rx"
 import { HiOutlineCalendar } from "react-icons/hi"
@@ -7,7 +7,7 @@ function Bolgs() {
   return (
 
     
-      <div className="container bolgs min-vh-100" id='bolg'>
+      <div className="container bolgs min-vh-100" id='bolg' data-aos="fade-up" data-aos-duration="800">
         {/* this is about header */}
         <div className="row my-5 d-flex justify-content-center align-items-center">
           <div className="col text-center bolg-content">

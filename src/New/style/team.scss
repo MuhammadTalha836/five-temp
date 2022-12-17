@@ -1,0 +1,60 @@
+.team {
+    .team-content {
+        max-width: 670px;
+
+        h1 {
+            color: #3F51B5;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        p {
+            word-spacing: 3px;
+            font-size: 17px;
+            text-align: center;
+        }
+    }
+
+    .card-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .card {
+            width: 23rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            img:hover {
+                cursor: pointer;
+                opacity: 0.5;
+                transition: 0.3s;
+            }
+
+        }
+    }
+
+
+    @media screen and (max-width:500px) {
+        .team-content {
+
+            h1 {
+                color: #3F51B5;
+                font-size: 26px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+
+            p {
+                word-spacing: 3px;
+                font-size: 17px;
+                text-align: center;
+            }
+        }
+
+
+
+    }
+}

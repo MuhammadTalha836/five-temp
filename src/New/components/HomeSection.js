@@ -1,6 +1,5 @@
 import React from 'react'
 import "../style/home.scss";
-import { CgDigitalocean } from "react-icons/cg"
 
 function HomeSection() {
   return (
@@ -9,7 +8,7 @@ function HomeSection() {
     <div className="container-fluid Home-bg" id='home'>
       <div className="container">
 
-      <div className="row home-content min-vh-100 d-flex align-items-center ms-5">
+      <div className="row home-content min-vh-100 d-flex align-items-center ms-5" data-aos="fade-up" data-aos-duration="800">
         {/* this is home header content */}
         <div className='col content mt-5'>
           <p className='text-white mb-3 pragraph'>We provide Best</p>

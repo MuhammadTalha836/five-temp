@@ -6,7 +6,7 @@ function Services() {
   return (
     // here is about section
     <div className="py-5  bg-light">
-      <div className="container services min-vh-100" id='services'>
+      <div className="container services min-vh-100" id='service' data-aos="fade-up" data-aos-duration="800">
         {/* this is about header */}
         <div className="row my-5 d-flex justify-content-center align-items-center">
           <div className="col text-center services-content">
