@@ -16,6 +16,7 @@
     "react-countup": "^6.4.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.7.1",
+    "react-image-lightbox": "^5.1.4",
     "react-modal-video": "^1.2.8",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0",

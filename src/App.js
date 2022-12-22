@@ -9,6 +9,7 @@ import Bolgs from './New/components/Bolgs';
 import Team from './New/components/Team';
 import Portfolio from './New/components/Portfolio';
 import Contact from './New/components/Contact';
+import ImageLightBox from './New/components/ImageLightBox';
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
       <NavBar/>
       <HomeSection />
       <Services/>
+      <ImageLightBox/>
       <Facts />
       <Bolgs/>
       <Team/>
